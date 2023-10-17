@@ -31,5 +31,5 @@ socket.on("activity", (name) => {
   clearTimeout(activityTimeout);
   activityTimeout = setTimeout(() => {
     activity.textContent = "";
-  }, 1000);
+  }, 2000);
 });
